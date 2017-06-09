@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo site_url('asset/css/style.css'); ?>">
+
+</head>
+<body>
+<h2>Hai, <?php echo $this->session->userdata("nama"); ?></h2>
+	<a href="<?php echo base_url('login/logout'); ?>">Logout</a>
+
+</body>
+</html>
